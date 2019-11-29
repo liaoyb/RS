@@ -10,7 +10,7 @@ igraph作为图计算和社交分析的常用包，在使用Python进行高级�
 
 报错原因分析：
 
-   通过pip list发现Python安装的有igraph包有两个：igraph、python-igraph，导致加载igraph包时候系统无法判断加载哪一个。实际上，我们需要的包只有python-igraph。
+    通过pip list发现Python安装的有igraph包有两个：igraph、python-igraph，导致加载igraph包时候系统无法判断加载哪一个。实际上，我们需要的包只有python-igraph。
 
 解决办法：
 
